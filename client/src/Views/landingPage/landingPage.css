@@ -1,0 +1,71 @@
+.start-container {
+  display: flex;
+  flex-direction: column;
+  align-items: normal;
+  justify-content: center;
+  height: 94vh;
+  padding: 20px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;  
+}
+
+
+
+
+.image {
+  max-width: 400px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+  /*.title {
+    color: #7de9ff;
+    font-family: "Courier New", Courier, monospace;
+    font-size: x-large;
+    text-align: center;
+  }
+
+  .subtitle {
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bolder;
+    text-align: center;
+    font-size: xx-large;
+    color: #7de9ff;
+
+  }
+}
+*/
+
+.start-button {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  align-self: flex-end;
+  padding: 8px 25px;
+  padding-bottom: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #0095ff;
+  color: #414141;
+  border: 2px solid grey;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-right: 30px;
+  justify-content: center;
+}
+
+.start-button:hover {
+  background-color: #005bbd;
+  transition: background-color 0.5s ease;
+}
+
+.start-link {
+  align-self: flex-end;
+}
+
+/*background: url("../../assets/images/1230-dibujos-banderas.jpg");
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+ height: 100vh;
+ */
